@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link href="css/bootstrap.min.css"  rel="stylesheet">
+</head>
+<body>
+    <div id="menu-container"></div>
+    <div class="container  ">
+          <form id="form1">
+        <div class="row  ">
+            <div class="col-md-6 mx-auto mt-5 bg-light   rounded">
+                <div class="h3 text-center	text-primary mt-3 ">Register</div>
+                <div class="mb-3 mt-4 ">
+                    <label class="form-label">Fullname</label>
+                    <input type="text" class="form-control" id="firstname-lastname" placeholder="ชื่อ-นามสกุล" required>
+                </div>
+                <div class="mb-3 mt-4 ">
+                    <label class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="อีเมล" required>
+                </div>
+                <div class="mb-3 mt-4 ">
+                    <label class="form-label">Phone</label>
+                    <input type="password" class="form-control" id="number" placeholder="กรอกเบอร์โทร" required>
+                </div>
+
+                <div class="mb-3 mt-4">
+                    <label class="form-label">Select Course</label>
+                    <select class="form-select" name="course" required>
+                        <p1 value="" selected disabled></p1>
+                        <option value="web">Course 1</option>
+                        <option value="programming">Course 2</option>
+                        <option value="database">Course 3</option>
+                        <option value="network">Course 4</option>
+                        <option value="network">Course 5</option>
+                        <option value="network">Course 6</option>
+                    </select>
+                </div>
+                    
+                </div>
+                <div class="text-center mb-4">
+                    <input type="submit" id="submit" class="btn btn-primary" value="Register">
+                </div>
+            </form>
+            
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/menu.js"></script>
